@@ -1,27 +1,27 @@
 {
-  "id": "9078cceb-c723-472e-85f5-bbc0121cf005",
+  "id": "a020cffc-5cd4-4d46-b92f-c24ac331d42a",
   "version": "2.0",
-  "name": "project",
+  "name": "Project",
   "url": "http://34.230.89.223:8080/Lin_Reut_Linoy_Matan/",
   "tests": [{
-    "id": "36ed5670-69f5-48b7-9911-e5a05a498bd0",
+    "id": "f6af9d5c-afca-4e47-b4f3-05700c110e89",
     "name": "test",
     "commands": [{
-      "id": "3c90991b-9e38-4c45-a9e2-deae0082d254",
+      "id": "de80055d-f88d-4c30-b359-9091ba35d5b2",
       "comment": "",
       "command": "open",
       "target": "http://34.230.89.223:8080/Lin_Reut_Linoy_Matan/",
       "targets": [],
       "value": ""
     }, {
-      "id": "1820f148-c2a0-47eb-84a7-37645f1f83ec",
+      "id": "9a506fdf-9fc6-445e-8414-ddd8f7b94845",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1283x878",
+      "target": "1283x879",
       "targets": [],
       "value": ""
     }, {
-      "id": "03e86ef5-ba6d-49ec-ad1b-b50e46c26a95",
+      "id": "07ed6631-75f6-42f8-8d75-b0b3c9148d34",
       "comment": "",
       "command": "click",
       "target": "id=username",
@@ -33,14 +33,69 @@
       ],
       "value": ""
     }, {
-      "id": "56fc425a-4f1a-4e73-b9ef-5666f7c0ce49",
+      "id": "31fdd8f4-e32c-43ca-9991-6446a34b60be",
       "comment": "",
       "command": "executeScript",
       "target": "document.getElementById('username').value='matan'; document.getElementById('username').dispatchEvent(new Event('input', { bubbles: true }));",
       "targets": [],
+      "value": "test"
+    }, {
+      "id": "a7057bea-f833-43d8-9381-47c5b34ce530",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='showMessage()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
-      "id": "bd70f0f3-228f-4924-a982-68dbd71a22cb",
+      "id": "77429de1-18e5-406f-88c5-da6c024545df",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2317b882-a0a9-41c9-99f0-7240a256734c",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df59d8b5-5bb0-40d6-b042-c6180cb7599f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eb5e13a-1a4f-4fa0-bba2-189eab27ec1b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementById('username').value='matan'; document.getElementById('username').dispatchEvent(new Event('input', { bubbles: true }));",
+      "targets": [],
+      "value": "test2"
+    }, {
+      "id": "86fca678-7e4d-457f-8aaa-4abc238d8e91",
       "comment": "",
       "command": "click",
       "target": "css=button",
@@ -54,12 +109,12 @@
     }]
   }],
   "suites": [{
-    "id": "43765ed5-1727-4413-b76d-49b8a1cb8ff6",
+    "id": "403229b7-ce7f-4795-8b5b-b4c37c316e5e",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["36ed5670-69f5-48b7-9911-e5a05a498bd0"]
+    "tests": ["f6af9d5c-afca-4e47-b4f3-05700c110e89"]
   }],
   "urls": ["http://34.230.89.223:8080/Lin_Reut_Linoy_Matan/"],
   "plugins": []
