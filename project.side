@@ -2,7 +2,7 @@
   "id": "9078cceb-c723-472e-85f5-bbc0121cf005",
   "version": "2.0",
   "name": "project",
-  "url": "http://13.218.152.255:8080/Lin_Reut_Linoy_Matan/",
+  "url": "http://34.230.89.223:8080/Lin_Reut_Linoy_Matan/",
   "tests": [{
     "id": "36ed5670-69f5-48b7-9911-e5a05a498bd0",
     "name": "test",
@@ -10,7 +10,7 @@
       "id": "3c90991b-9e38-4c45-a9e2-deae0082d254",
       "comment": "",
       "command": "open",
-      "target": "http://13.218.152.255:8080/Lin_Reut_Linoy_Matan/",
+      "target": "http://34.230.89.223:8080/Lin_Reut_Linoy_Matan/",
       "targets": [],
       "value": ""
     }, {
@@ -61,6 +61,6 @@
     "timeout": 300,
     "tests": ["36ed5670-69f5-48b7-9911-e5a05a498bd0"]
   }],
-  "urls": ["http://13.218.152.255:8080/Lin_Reut_Linoy_Matan/"],
+  "urls": ["http://34.230.89.223:8080/Lin_Reut_Linoy_Matan/"],
   "plugins": []
 }
