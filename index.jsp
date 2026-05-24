@@ -112,7 +112,7 @@
         <p id="result"></p>
 
         <a href="https://www.google.com" target="_blank">
-            Visit Google
+            Visit Google Website
         </a>
 
         <div class="footer">
