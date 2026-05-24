@@ -1,0 +1,66 @@
+{
+  "id": "9078cceb-c723-472e-85f5-bbc0121cf005",
+  "version": "2.0",
+  "name": "project",
+  "url": "http://13.218.152.255:8080/Lin_Reut_Linoy_Matan/",
+  "tests": [{
+    "id": "36ed5670-69f5-48b7-9911-e5a05a498bd0",
+    "name": "test",
+    "commands": [{
+      "id": "3c90991b-9e38-4c45-a9e2-deae0082d254",
+      "comment": "",
+      "command": "open",
+      "target": "http://13.218.152.255:8080/Lin_Reut_Linoy_Matan/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1820f148-c2a0-47eb-84a7-37645f1f83ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1283x878",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03e86ef5-ba6d-49ec-ad1b-b50e46c26a95",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56fc425a-4f1a-4e73-b9ef-5666f7c0ce49",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementById('username').value='matan'; document.getElementById('username').dispatchEvent(new Event('input', { bubbles: true }));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd70f0f3-228f-4924-a982-68dbd71a22cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='showMessage()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43765ed5-1727-4413-b76d-49b8a1cb8ff6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36ed5670-69f5-48b7-9911-e5a05a498bd0"]
+  }],
+  "urls": ["http://13.218.152.255:8080/Lin_Reut_Linoy_Matan/"],
+  "plugins": []
+}
