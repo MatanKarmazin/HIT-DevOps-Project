@@ -114,9 +114,6 @@
         <a href="https://www.google.com" target="_blank">
             Visit Google
         </a>
-            <a href="https://www.hit.ac.il/" target="_blank">
-            Visit HIT Website
-        </a>
 
         <div class="footer">
             Developed by:
