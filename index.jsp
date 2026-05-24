@@ -115,7 +115,7 @@
             Visit Google
         </a>
             <a href="https://www.hit.ac.il/" target="_blank">
-            Visit HIT
+            Visit HIT Website
         </a>
 
         <div class="footer">
