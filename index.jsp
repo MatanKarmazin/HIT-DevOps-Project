@@ -115,10 +115,6 @@
             Visit Google Website
         </a>
 
-        <a href="https://www.github.com" target="_blank">
-            Visit GitHub Website
-        </a>
-
         <div class="footer">
             Developed by:
             <br><br>
