@@ -111,8 +111,8 @@
 
         <p id="result"></p>
 
-        <a href="https://www.google.com" target="_blank">
-            Visit Google Website
+        <a href="https://www.hit.ac.il" target="_blank">
+            Visit HIT Website
         </a>
 
         <div class="footer">
